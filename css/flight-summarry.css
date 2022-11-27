@@ -1,0 +1,154 @@
+.side-bar-right {
+  width: 289px;
+  height: 355px;
+}
+
+.price p {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: right;
+  color: #191d23;
+}
+.price span {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #191d23;
+  opacity: 0.4;
+}
+.travel-details {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 861px;
+  height: 259px;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+.travel-details p {
+  font-weight: 800;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.0026em;
+  color: #282e44;
+}
+.add {
+  position: relative;
+  background: #f7f9fb;
+  border: 1px solid #eaebec;
+  border-radius: 6px;
+  width: 765px;
+  height: 46px;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+.input-add p {
+  position: absolute;
+  align-items: center;
+  left: 225px;
+  top: 745px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #aaaaaa;
+}
+.add-button {
+  position: absolute;
+  align-items: center;
+  left: 915px;
+  top: 745px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #0076ff;
+  border: none;
+  background: unset;
+}
+.add-button i {
+  color: #0076ff;
+  padding-right: 0.3rem;
+}
+.country-code p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4d556f;
+}
+
+.quick-navigation .quick-right ul {
+  gap: 32px;
+}
+
+input.base,
+input.fee {
+  width: 246px;
+  background: linear-gradient(180deg, #ffffff 37.5%, #f6f7f9 131.25%);
+  border: 1px solid #dadde3;
+  border-radius: 4px;
+  padding: 0.7rem;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b6b7b9;
+}
+.stop-input {
+  position: relative;
+}
+.sum,
+.fees {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  font-weight: 700;
+  font-size: 12px;
+  color: #191d23;
+}
+
+.fee {
+  position: relative;
+}
+
+.country-code {
+  position: relative;
+}
+.country-icon {
+  position: absolute;
+  top: 65%;
+  right: 7%;
+  color: #a4a4a9;
+  opacity: 0.8;
+}
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 765px;
+  padding-top: 1.5rem;
+}
+
+input#country,
+input#mobile,
+input#email {
+  background: #f7f9fb;
+  border: 1px solid #eaebec;
+  border-radius: 6px;
+  margin-top: 0.8rem;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+input#country {
+  padding: 0.5rem;
+  width: 185px;
+}
+input#mobile,
+input#email {
+  padding: 0.5rem;
+  width: 270px;
+}
+
+.contact-details label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4d556f;
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Summary</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/flight-results.css" />
+    <link rel="stylesheet" href="css/flight-results2.css" />
+    <link rel="stylesheet" href="css/flight-summarry.css" />
+    <link rel="stylesheet" href="css/flight-summarry2.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container flex">
+      <div class="left-side flex">
+        <div class="list flex">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <a href="#"><i class="fas fa-home-alt"></i> </a>
+          <a href="#"><i class="fas fa-wallet"></i> </a>
+          <a href="#"><i class="fas fa-id-badge"></i> </a>
+          <a href="#"><i class="fas fa-briefcase"></i> </a>
+          <a href="#"><i class="fas fa-globe-asia"></i> </a>
+          <a href="#"><i class="fas fa-question"></i> </a>
+        </nav>
+
+        <div class="subscribe flex">
+          <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <header class="flex">
+          <section class="tabs">
+            <div class="flex">
+              <a href="#" id="active-tab"
+                ><i class="fas fa-plane-departure"></i>
+              </a>
+              <a href="#"><i class="fas fa-bed"></i></a>
+              <a href="#"><i class="fa-solid fa-house"></i> </a>
+              <a href="#"><i class="fa-solid fa-taxi"></i> </a>
+            </div>
+          </section>
+          <div class="header-top-container">
+            <div class="header-top flex">
+              <div class="header-img">
+                <div class="header-top-icon-container flex">
+                  <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+                </div>
+              </div>
+              <p class="header-top-p">Become a Partner</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="header-top flex">
+              <div class="header-img">
+                <img
+                  src="person.jpg"
+                  alt=""
+                  width="30px"
+                  class="person-img flex"
+                />
+              </div>
+              <p class="header-top-p">Mansurul Haque</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </header>
+
+        <div class="secondary-flight">
+          <ul class="secondary-flight-tabs flex">
+            <li>
+              <p>Type</p>
+              <div class="secondary-ul-tab">
+                <p>Onway</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+            <li>
+              <p>Form</p>
+              <div class="secondary-ul-tab">
+                <p>Dhaka,Banghladesh</p>
+              </div>
+            </li>
+            <li>
+              <p>To</p>
+              <div class="secondary-ul-tab">
+                <p>Dilhi,India</p>
+              </div>
+            </li>
+            <li>
+              <p>Class</p>
+              <div class="secondary-ul-tab">
+                <p>3 Person</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+            <li>
+              <p>Departure - return</p>
+              <div class="secondary-ul-tab">
+                <p>21 Aug'19 - 29 Aug'19</p>
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+            </li>
+          </ul>
+          <button class="search">Search Flight</button>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-left">
+            <div class="quick-navigation">
+              <div class="payment-left">
+                <p>Payment Options</p>
+                <p class="session">
+                  The sesseion will expire in:
+                  <span class="total-result">26min 5sec</span>
+                </p>
+              </div>
+            </div>
+            <div class="flight-tab">
+              <ul>
+                <li>
+                  <img src="Rightmark.png" alt="Rightmark" />Flight selected
+                </li>
+                <li><img src="Line 4.svg" alt="line" /></li>
+                <li>
+                  <img src="Rightmark.png" alt="Rightmark" />Flight details
+                </li>
+                <li><img src="Line 4.svg" alt="line" /></li>
+                <li>
+                  <img src="Rightmark.png" alt="Rightmark" />Flight booking
+                </li>
+              </ul>
+            </div>
+
+            <div class="payment-details">
+              <p>Payment Method</p>
+              <div class="payment">
+                <div class="payment-option">
+                  <i class="fa-solid fa-angle-left left-arrow"></i>
+                  <div class="card-details">
+                    <div class="credit-card card">
+                      <i class="fa-solid fa-credit-card"></i>
+                      <p>Credit/Debit Card</p>
+                    </div>
+                    <div class="gift-card card">
+                      <i class="fa-solid fa-gift"></i>
+                      <p>Gift Card</p>
+                    </div>
+                    <div class="EMI-card card">
+                      <i class="fa-brands fa-cc-visa"></i>
+                      <p>EMI on Credit/Debit Card</p>
+                    </div>
+                    <div class="google-pay card">
+                      <i class="fa-brands fa-google-play"></i>
+                      <p>Google Play</p>
+                    </div>
+                    <div class="paypal card">
+                      <i class="fa-brands fa-paypal"></i>
+                      <p>Paypal</p>
+                    </div>
+                    <div class="Wallets card">
+                      <i class="fa-solid fa-wallet"></i>
+                      <p>Wallet</p>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-angle-right right-arrow"></i>
+                </div>
+
+                <label for="card-number">Card Number</label>
+                <input
+                  type="text"
+                  id="card-number"
+                  placeholder="Enter your card number"
+                />
+
+                <label for="card-name">Name of Card</label>
+                <input
+                  type="text"
+                  id="card-name"
+                  placeholder="Enter your card name"
+                />
+
+                <div class="expire-date">
+                  <div class="month">
+                    <label for="month">Expire Month</label>
+                    <br />
+                    <input
+                      type="text"
+                      name="month"
+                      id="month"
+                      placeholder="Month"
+                    />
+                  </div>
+                  <div class="year">
+                    <label for="year">Expire Year</label>
+                    <br />
+                    <input
+                      type="text"
+                      name="year"
+                      id="year"
+                      placeholder="Year"
+                    />
+                  </div>
+
+                  <div class="cvv">
+                    <label for="cvv">CVV Code</label>
+                    <br />
+                    <input
+                      type="number"
+                      min="6"
+                      max="6"
+                      id="cvv"
+                      placeholder="CVV"
+                    />
+                  </div>
+                </div>
+                <div class="policy">
+                  <input
+                    type="checkbox"
+                    id="policy"
+                    name="policy"
+                    value="policy"
+                    checked
+                  />
+                  <label for="policy">
+                    I accept the Fare Rules , the
+                    <span style="color: #0076ff">Privacy Policy</span>
+                  </label>
+                </div>
+                <div class="price-2">
+                  <p>5,000 <span>USD</span></p>
+                </div>
+
+                <button class="pay-now">Pay Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-bar-right">
+            <div class="right-header">Profile</div>
+            <div class="user-details">
+              <img src="User.png" alt="user" />
+              <p class="user-name">Mansurul Haque</p>
+              <p class="user-title">Personal Account</p>
+              <button class="edit-profile">Edit Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

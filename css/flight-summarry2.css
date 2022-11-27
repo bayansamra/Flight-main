@@ -1,0 +1,228 @@
+.payment-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 28rem;
+}
+.payment-left > p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #191d23;
+}
+.payment-left > .session {
+  font-weight: 400;
+  font-size: 11px;
+  color: #9698a8;
+}
+
+.session .total-result {
+  color: #0076ff;
+}
+
+.payment-details {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.payment-details label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4d556f;
+  margin-bottom: 0.8rem;
+}
+
+.payment-details p {
+  font-weight: 800;
+  font-size: 24px;
+  color: #282e44;
+}
+
+input#card-number,
+input#card-name {
+  background: #f7f9fb;
+  border: 1px solid #eaebec;
+  border-radius: 6px;
+  width: 765px;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.7rem;
+}
+
+.expire-date {
+  width: 765px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.month,
+.year,
+.cvv {
+  margin-right: 1rem;
+}
+
+input#month,
+input#year,
+input#cvv {
+  width: 185px;
+  padding: 0.5rem;
+  background: #f7f9fb;
+  border: 1px solid #eaebec;
+  border-radius: 6px;
+  margin-top: 0.8rem;
+}
+
+input#policy {
+  margin-top: 1.5rem;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  font-size: 15px;
+  color: #282e44;
+}
+
+.price-2 p {
+  font-weight: 700;
+  font-size: 32px;
+  color: #191d23;
+  margin-top: 2rem;
+}
+.price-2 span {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #191d23;
+  opacity: 0.4;
+}
+
+.pay-now {
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #0a6ada;
+  border-radius: 180px;
+  width: 98px;
+  height: 32px;
+  border: none;
+  margin-top: 0.8rem;
+}
+
+.flight-tab {
+  background: #ffffff;
+  border-radius: 6px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 863px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.1rem;
+}
+
+.flight-tab ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.flight-tab li {
+  font-weight: 600;
+  font-size: 10px;
+  color: #525a75;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card-details p {
+  font-weight: 700;
+  font-size: 10px;
+  color: #424654;
+}
+.credit-card,
+.gift-card,
+.EMI-card,
+.google-pay,
+.paypal,
+.Wallets {
+  display: flex;
+  flex-direction: row;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 11rem 0;
+}
+
+.user-details img {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #191d23;
+}
+.user-title {
+  font-weight: 400;
+  font-size: 10px;
+  color: #54556c;
+  padding-bottom: 1.2rem;
+}
+.edit-profile {
+  background: rgba(124, 130, 155, 0.1);
+  border-radius: 180px;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  color: #191d23;
+  height: 32px;
+  width: 98px;
+}
+.side-bar-right {
+  height: 312px;
+  width: 289px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 55vw;
+}
+.payment-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #f0f0f0;
+  margin: 1.5rem -2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-details p {
+  margin-left: 0.5rem;
+}
+
+.card-details .card {
+  padding: 0.8rem;
+  margin-right: 0.4rem;
+  background: #ffffff;
+  border-radius: 4px;
+}
+.credit-card {
+  border: 1px solid #0a6ada;
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left-side flex">
+        <div class="list flex">
+          <img src="Brand Logo.svg" alt="brand logo" />
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <ul>
+            <a href="#" id="active"
+              ><i class="fas fa-home-alt"></i>
+              <li>Home</li>
+              <li></li
+            ></a>
+            <a href="#"
+              ><i class="fas fa-wallet"></i>
+              <li>Wallet</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-id-badge"></i>
+              <li>Booking</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-briefcase"></i>
+              <li>Buisness</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-globe-asia"></i>
+              <li>Explore</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-question"></i>
+              <li>Support</li></a
+            >
+          </ul>
+        </nav>
+
+        <div class="subscribe flex">
+          <div class="flex">
+            <div>
+              <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+            </div>
+            <div class="prem flex">
+              <p style="font-size: 0.5rem">Get Premium</p>
+              <p style="opacity: 60%">$39/m</p>
+            </div>
+          </div>
+          <i class="fas fa-play" style="color: #d0d2d9"></i>
+        </div>
+
+      </div>
+
+      <div class="right-side">
+        <header class="flex">
+          <div class="header-top flex">
+            <div class="header-img">
+              <div class="header-top-icon-container flex">
+                <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+              </div>
+            </div>
+            <p class="header-top-p">Become a Partner</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="header-top flex">
+            <div class="header-img">
+              <img src="person.jpg" alt="" width="30px" class="person-img flex" />
+            </div>
+            <p class="header-top-p">Mansurul Haque</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </header>
+
+        <section class="tabs">
+          <ul class="flex">
+            <a href="#" id="active-tab"
+              ><i class="fas fa-plane-departure"></i>
+              <li>Flights</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-bed"></i>
+              <li>Hotel</li></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-house"></i>
+              <li>Villa</li></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-taxi"></i>
+              <li>Taxi</li></a
+            >
+          </ul>
+        </section>
+        <section class="flight">
+          <div class="flight-information">
+            <div class="flight-tabs">
+              <ul class="flex">
+                <li id="clicked">Oneway</li>
+                <li>Round Trip</li>
+                <li>Multy city</li>
+              </ul>
+            </div>
+
+            <div class="info-container flex">
+              <div class="first flex">
+                <div class="info from-to">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>From</p>
+                  </div>
+                  <p class="info-p">Dhaka, Bangladesh</p>
+                  <p class="airport">Usmani airport, Sylhet</p>
+                </div>
+                <div class="info from-to">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>To</p>
+                  </div>
+                  <p class="info-p">Dilhi, India</p>
+                  <p class="airport">Shuvas chandra bosu airport</p>
+                </div>
+                <div class="info flex class">
+                  <div class="icon flex">
+                    <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                    <p>Class</p>
+                  </div>
+                  <p class="info-p">3 Persons</p>
+                  <p class="airport">Busieness</p>
+                  <i class="fa-solid fa-angle-down class-angle"></i>
+                </div>
+              </div>
+              <div class="second flex">
+                <div class="info flex date">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>Departure</p>
+                    <i class="fa-solid fa-angle-down info-date-angle-icon"></i>
+                  </div>
+                  <p class="info-date">21 Aug'20</p>
+                  <p class="day">Sunday</p>
+                </div>
+                <div class="info flex date">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>Return</p>
+                    <i class="fa-solid fa-angle-down info-date-angle-icon"></i>
+                  </div>
+                  <p class="info-date">29 Aug'20</p>
+                  <p class="day">Sunday</p>
+                </div>
+                <div class="info flex more">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>Return</p>
+                  </div>
+                  <p class="info-date">More</p>
+                  <p class="day">...</p>
+                </div>
+
+                <button class="search-flight">Search flight</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="special-offer">
+          <div class="special-offer-title flex">
+            <h2>Special Offer</h2>
+            <p style="margin-right: 3rem">View all</p>
+          </div>
+          <div class="cards flex">
+            <div class="card-item flex">
+              <div class="offer-img-container flex">
+                <img
+                  src="offer-img.jpg"
+                  alt="offer-img"
+                  class="offer-img"
+                  width="110px"
+                />
+              </div>
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">Citytuch</p>
+                  <p class="discount">Up to $599 discount</p>
+                  <p class="offer-flight">Domestic flight</p>
+                </div>
+                <div class="cupon flex">
+                  <p>Cupon: <span class="cupon-code">dhshjab09d</span></p>
+                  <button class="book flex">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item flex">
+              <div class="offer-img-container flex">
+                <img
+                  src="offer-img.jpg"
+                  alt="offer-img"
+                  class="offer-img"
+                  width="110px"
+                />
+              </div>
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">Citytuch</p>
+                  <p class="discount">Up to $599 discount</p>
+                  <p class="offer-flight">Domestic flight</p>
+                </div>
+                <div class="cupon flex">
+                  <p>Cupon: <span class="cupon-code">dhshjab09d</span></p>
+                  <button class="book flex">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item flex">
+              <div class="offer-img-container flex">
+                <img
+                  src="offer-img.jpg"
+                  alt="offer-img"
+                  class="offer-img"
+                  width="110px"
+                />
+              </div>
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">Citytuch</p>
+                  <p class="discount">Up to $599 discount</p>
+                  <p class="offer-flight">Domestic flight</p>
+                </div>
+                <div class="cupon flex">
+                  <p>Cupon: <span class="cupon-code">dhshjab09d</span></p>
+                  <button class="book flex">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="best-offer">
+          <div class="best-offer-title flex">
+            <h2>Best Offer</h2>
+            <p>View all</p>
+          </div>
+
+          <div class="best-offer-cards">
+            <div class="best-offer-card flex">
+              <div class="best-offer-img flex">
+                <img src="offer-img.jpg" alt="" width="100px" />
+                <p><span>Via - </span>Delhi, Toronto, Mexico</p>
+              </div>
+              <p>$546</p>
+              <p>15 Aug - 22 Aug</p>
+              <div>
+                <button class="best-offer-button">
+                  Book Now
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="best-offer-card flex">
+              <div class="best-offer-img flex">
+                <img src="offer-img.jpg" alt="" width="100px" />
+                <p><span>Via - </span>Delhi, Toronto, Mexico</p>
+              </div>
+              <p>$546</p>
+              <p>15 Aug - 22 Aug</p>
+              <div>
+                <button class="best-offer-button">
+                  Book Now
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="best-offer-card flex">
+              <div class="best-offer-img flex">
+                <img src="offer-img.jpg" alt="" width="100px" />
+                <p><span>Via - </span>Delhi, Toronto, Mexico</p>
+              </div>
+              <p>$546</p>
+              <p>15 Aug - 22 Aug</p>
+              <div>
+                <button class="best-offer-button active-offer-button">
+                  Book Now
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="best-offer-card flex">
+              <div class="best-offer-img flex">
+                <img src="offer-img.jpg" alt="" width="100px" />
+                <p><span>Via - </span>Delhi, Toronto, Mexico</p>
+              </div>
+              <p>$546</p>
+              <p>15 Aug - 22 Aug</p>
+              <div>
+                <button class="best-offer-button">
+                  Book Now
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="best-offer-card flex last-offer">
+              <div class="best-offer-img flex">
+                <img src="offer-img.jpg" alt="" width="100px" />
+                <p><span>Via - </span>Delhi, Toronto, Mexico</p>
+              </div>
+              <p>$546</p>
+              <p>15 Aug - 22 Aug</p>
+              <div>
+                <button class="best-offer-button">
+                  Book Now
+                  <i class="fa-solid fa-caret-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="banner">
+          <div class="banner-container flex">
+            <div class="banner-title">
+              <p>Book your perfect deals</p>
+              <div class="price flex">
+                <p class="banner-price">$547</p>
+                <p class="starting-at">starting at</p>
+              </div>
+            </div>
+            <div class="banner-img">
+              <img src="Illustration.png" alt="Illustration" />
+            </div>
+            <button class="banner-button flex">Book now</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

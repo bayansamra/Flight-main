@@ -1,0 +1,57 @@
+.input-add {
+  position: relative;
+}
+.taxi-add-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #0076ff;
+  border: none;
+  background: none;
+  position: absolute;
+  top: 48%;
+  right: 8%;
+}
+
+.travel-details .profile-details {
+  font-weight: 400;
+  font-size: 12px;
+  color: #898989;
+}
+
+.card-items {
+  background: #fff;
+  border-radius: 6px;
+}
+.travel-details {
+  height: auto;
+  padding-bottom: 2rem;
+}
+.complete-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+.complete-list ul {
+  list-style: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #898989;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 1rem;
+}
+.complete-list li i {
+  background: #0a6ada;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white;
+  padding: 0.2rem 0.3rem;
+  margin-right: 0.5rem;
+}
+.profile-nav {
+    padding: 0.5rem 2rem;
+}

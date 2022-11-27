@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flight results</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/flight-results.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="left-side flex">
+      <div class="list flex">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav>
+        <a href="#"><i class="fas fa-home-alt"></i> </a>
+        <a href="#"><i class="fas fa-wallet"></i> </a>
+        <a href="#"><i class="fas fa-id-badge"></i> </a>
+        <a href="#"><i class="fas fa-briefcase"></i> </a>
+        <a href="#"><i class="fas fa-globe-asia"></i> </a>
+        <a href="#"><i class="fas fa-question"></i> </a>
+      </nav>
+
+      <div class="subscribe flex">
+        <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+      </div>
+
+
+    </div>
+
+    <div class="right-side">
+      <header class="flex">
+        <section class="tabs">
+          <div class="flex">
+            <a href="#" id="active-tab"><i class="fas fa-plane-departure"></i>
+            </a>
+            <a href="#"><i class="fas fa-bed"></i></a>
+            <a href="#"><i class="fa-solid fa-house"></i> </a>
+            <a href="#"><i class="fa-solid fa-taxi"></i> </a>
+          </div>
+        </section>
+        <div class="header-top-container">
+          <div class="header-top flex">
+            <div class="header-img">
+              <div class="header-top-icon-container flex">
+                <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+              </div>
+            </div>
+            <p class="header-top-p">Become a Partner</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="header-top flex">
+            <div class="header-img">
+              <img src="person.jpg" alt="" width="30px" class="person-img flex" />
+            </div>
+            <p class="header-top-p">Mansurul Haque</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </header>
+
+      <div class="secondary-flight">
+        <ul class="secondary-flight-tabs flex">
+          <li>
+            <p>Type</p>
+            <div class="secondary-ul-tab">
+              <p>Onway</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li>
+            <p>Form</p>
+            <div class="secondary-ul-tab">
+              <p>Dhaka,Banghladesh</p>
+            </div>
+          </li>
+          <li>
+            <p>To</p>
+            <div class="secondary-ul-tab">
+              <p>Dilhi,India</p>
+            </div>
+          </li>
+          <li>
+            <p>Class</p>
+            <div class="secondary-ul-tab">
+              <p>3 Person</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li>
+            <p>Departure - return</p>
+            <div class="secondary-ul-tab">
+              <p>21 Aug'19 - 29 Aug'19</p>
+              <i class="fa-solid fa-calendar"></i>
+            </div>
+          </li>
+        </ul>
+        <button class="search">Search Flight</button>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-left">
+          <div class="quick-navigation">
+            <div class="quick-left">
+              <p>Flights</p>
+              <p class="result">
+                <span class="line">|</span> Total
+                <span class="total-result">126 result</span>
+              </p>
+            </div>
+
+            <div class="quick-right">
+              <ul>
+                <li class="cheap">Cheapest</li>
+                <li>Best</li>
+                <li>Quickest</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-items">
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <img src="object.png" alt="objcet" />
+                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <div class="object">
+                      <img src="object.png" alt="objcet" />
+                      <p class="address-name">HKG</p>
+                    </div>
+                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <div class="object">
+                      <img src="object.png" alt="objcet" />
+                      <p class="address-name">HKG</p>
+                    </div>
+                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <div class="object">
+                      <img src="object.png" alt="objcet" />
+                      <p class="address-name">HKG</p>
+                    </div>
+                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <div class="object">
+                      <img src="object.png" alt="objcet" />
+                      <p class="address-name">HKG</p>
+                    </div>                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="card-item-left">
+                <div class="card-top">
+                  <p>Cheapest</p>
+                  <p class="result">
+                    <span class="line"> | </span> Rating:
+                    <span class="rating">4.5</span>
+                  </p>
+                </div>
+
+                <div class="card-bottom">
+                  <img src="Logo.png" alt="logo" />
+                  <p>Emirates</p>
+                  <div class="address">
+                    <div class="address-start">
+                      <p class="time">12:10</p>
+                      <p class="address-name">GAU</p>
+                    </div>
+                    <div class="object">
+                      <img src="object.png" alt="objcet" />
+                      <p class="address-name">HKG</p>
+                    </div>
+                    <div class="address-end">
+                      <p class="time">18:30</p>
+                      <p class="address-name">DAC</p>
+                    </div>
+                  </div>
+                  <p class="timestamp">68h 10m</p>
+
+                  <button class="details">View Details</button>
+                </div>
+              </div>
+              <div class="card-item-right">
+                <div class="box">
+                  <div class="box-left">
+                    <p>20% OFF</p>
+                    <p class="save">Save $129</p>
+                  </div>
+                  <div class="box-right">
+                    <p>399<span>USD</span></p>
+                    <p class="down">Opodo</p>
+                  </div>
+                </div>
+                <div class="box-right-button">
+                  <button class="book-now">BOOK NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-bar-right">
+          <div class="right-header">Filters</div>
+          <div class="price">
+            <div class="price-amount">
+              <p>Price</p>
+              <p>+795</p>
+            </div>
+            <div class="graph">
+              <div class="graph-img">
+                <img src="Combined Shape.png" alt="graph" />
+              </div>
+              <div class="graph2-img">
+                <img src="Active-Price.png" alt="active-price" />
+              </div>
+            </div>
+          </div>
+          <div class="stop">
+            <div class="stop-title">
+              <p>Stop</p>
+              <p class="num">2</p>
+            </div>
+            <div class="stop-input">
+              <select name="stop" id="stop">
+                <option value="LA"><span>via </span>Los angeles, USA</option>
+                <option value="LB"><span>via </span>Los angeles, USA</option>
+                <option value="LC"><span>via </span>Los angeles, USA</option>
+                <option value="LD"><span>via </span>Los angeles, USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="airline">
+            <div class="airline-title">
+              <p>Airline</p>
+            </div>
+            <div class="airline-input">
+              <select name="ariline" id="airline">
+                <option value="QA">Qatar Airways</option>
+                <option value="JO">Jordan Airways</option>
+                <option value="PA">Palestine Airways</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="airport">
+            <p>Airport</p>
+            <br />
+            <input type="checkbox" name="dhaka" id="dhaka" class="airports" />
+            <label for="dhaka">Dhaka</label>
+            <br />
+            <input type="checkbox" name="dubai" id="dubai" class="airports" />
+            <label for="dubai">Dubai</label>
+            <br />
+            <input type="checkbox" name="muscut" id="muscut" class="airports" />
+            <label for="muscut">Muscut</label>
+          </div>
+       
+          <div class="more">
+            <p>More</p>
+            <i class="fa-solid fa-angle-down" style="color: #4c4b5e; opacity: 0.8"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

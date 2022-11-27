@@ -1,0 +1,132 @@
+.card-item-special {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+.card-item-special .card-item-left {
+  width: 863px;
+}
+.card-item-special .address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-item-special .card-bottom {
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+.right-side-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 340px;
+}
+.right-side-card p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #191d235e;
+}
+.right-side-card span {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: #33344f;
+}
+.right-side-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.right-side-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #163668;
+  background: #f1f5f7;
+  backdrop-filter: blur(54.3656px);
+}
+
+.second-item-menu {
+  padding-left: 4rem;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #191d23;
+  opacity: 0.7;
+}
+.title-services {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding-left: 2rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #191d23;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+  margin-bottom: 1rem;
+}
+
+.services p {
+  font-weight: 600;
+  font-size: 12px;
+  color: #191d23;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.first-item-menu:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 11%;
+  top: 95%;
+  left: 0px;
+  background: #163668;
+  backdrop-filter: blur(54.3656px);
+}
+
+.title:after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 52%;
+  bottom: 33px;
+  left: 280px;
+  background: #E6E6E9;
+}
+

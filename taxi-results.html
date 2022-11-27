@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taxi results</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/flight-results.css" />
+  <link rel="stylesheet" href="css/hotel-results.css" />
+  <link rel="stylesheet" href="css/taxi-results.css" />
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="left-side flex">
+      <div class="list flex">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav>
+        <a href="#"><i class="fas fa-home-alt"></i> </a>
+        <a href="#"><i class="fas fa-wallet"></i> </a>
+        <a href="#"><i class="fas fa-id-badge"></i> </a>
+        <a href="#"><i class="fas fa-briefcase"></i> </a>
+        <a href="#"><i class="fas fa-globe-asia"></i> </a>
+        <a href="#"><i class="fas fa-question"></i> </a>
+      </nav>
+
+      <div class="subscribe flex">
+        <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+      </div>
+
+
+    </div>
+
+    <div class="right-side">
+      <header class="flex">
+        <section class="tabs">
+          <div class="flex">
+            <a href="#"><i class="fas fa-plane-departure"></i>
+            </a>
+            <a href="#" id="active-tab"><i class="fas fa-bed"></i></a>
+            <a href="#"><i class="fa-solid fa-house"></i> </a>
+            <a href="#"><i class="fa-solid fa-taxi"></i> </a>
+          </div>
+        </section>
+        <div class="header-top-container">
+          <div class="header-top flex">
+            <div class="header-img">
+              <div class="header-top-icon-container flex">
+                <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+              </div>
+            </div>
+            <p class="header-top-p">Become a Partner</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="header-top flex">
+            <div class="header-img">
+              <img src="person.jpg" alt="" width="30px" class="person-img flex" />
+            </div>
+            <p class="header-top-p">Mansurul Haque</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </header>
+
+      <div class="secondary-flight">
+        <ul class="secondary-flight-tabs flex">
+          <li>
+            <p>type</p>
+            <div class="secondary-ul-tab">
+              <p>Outstation One-way</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li>
+            <p>form</p>
+            <div class="secondary-ul-tab">
+              <p>Mumbai</p>
+            </div>
+          </li>
+          <li>
+            <p>to</p>
+            <div class="secondary-ul-tab">
+              <p>Goa</p>
+            </div>
+          </li>
+          <li>
+            <p>pick-up date</p>
+            <div class="secondary-ul-tab">
+              <p>Fri, 16 Oct 2020</p>
+              <i class="fa-solid fa-calendar"></i>
+            </div>
+          </li>
+          <li>
+            <p>pick-up Time</p>
+            <div class="secondary-ul-tab">
+              <p>03:00 AM</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+        </ul>
+        <button class="search">Search Flight</button>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-left">
+          <div class="quick-navigation">
+            <div class="quick-left">
+              <p>Taxi</p>
+              <p class="result">
+                <span class="line">|</span> Total
+                <span class="total-result">126 result</span>
+              </p>
+            </div>
+
+            <div class="quick-right">
+              <ul>
+                <li class="cheap">Cheapest</li>
+                <li>Best</li>
+                <li>Quickest</li>
+              </ul>
+            </div>
+          </div>
+          <div class="hotel-cards">
+            <div class="hotel-card">
+              <img src="Taxi-Image.png" alt="Taxi-Image" class="hotel-card-img" />
+
+              <div class="hotel-card-right">
+                <div class="hotel-title">
+                  <h3>White Jaguar XF 2 Car</h3>
+                </div>
+                <div class="hotel-address">
+                  <p class="hotel-location">Sedan</p>
+
+                </div>
+                <div class="hotel-services">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Parking
+                    </li>
+                    <li>
+                      <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                      4 Seat
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fan"></i> 
+                      AC
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="hotel-price">
+                  <div class="pricing">
+                    <p class="discount">25% off</p>
+                    <p class="hot-price">$473</p>
+                  </div>
+
+                  <div class="price-buttons">
+                    <button class="view-details">View Details</button>
+                    <button class="book-now-hotel">BOOK NOW</button>
+                  </div>
+                </div>
+                <img src="Attach.png" alt="rating" class="rating" width="50px" />
+              </div>
+
+            </div>
+            
+            <div class="hotel-card">
+              <img src="Taxi-Image.png" alt="Taxi-Image" class="hotel-card-img" />
+
+              <div class="hotel-card-right">
+                <div class="hotel-title">
+                  <h3>White Jaguar XF 2 Car</h3>
+                </div>
+                <div class="hotel-address">
+                  <p class="hotel-location">Sedan</p>
+
+                </div>
+                <div class="hotel-services">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Parking
+                    </li>
+                    <li>
+                      <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                      4 Seat
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fan"></i> 
+                      AC
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="hotel-price">
+                  <div class="pricing">
+                    <p class="discount">25% off</p>
+                    <p class="hot-price">$473</p>
+                  </div>
+
+                  <div class="price-buttons">
+                    <button class="view-details">View Details</button>
+                    <button class="book-now-hotel">BOOK NOW</button>
+                  </div>
+                </div>
+                <img src="Attach.png" alt="rating" class="rating" width="50px" />
+              </div>
+
+            </div>
+
+           <div class="hotel-card">
+              <img src="Taxi-Image.png" alt="Taxi-Image" class="hotel-card-img" />
+
+              <div class="hotel-card-right">
+                <div class="hotel-title">
+                  <h3>White Jaguar XF 2 Car</h3>
+                </div>
+                <div class="hotel-address">
+                  <p class="hotel-location">Sedan</p>
+
+                </div>
+                <div class="hotel-services">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Parking
+                    </li>
+                    <li>
+                      <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                      4 Seat
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fan"></i> 
+                      AC
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="hotel-price">
+                  <div class="pricing">
+                    <p class="discount">25% off</p>
+                    <p class="hot-price">$473</p>
+                  </div>
+
+                  <div class="price-buttons">
+                    <button class="view-details">View Details</button>
+                    <button class="book-now-hotel">BOOK NOW</button>
+                  </div>
+                </div>
+                <img src="Attach.png" alt="rating" class="rating" width="50px" />
+              </div>
+
+            </div>
+            <div class="hotel-card">
+              <img src="Taxi-Image.png" alt="Taxi-Image" class="hotel-card-img" />
+
+              <div class="hotel-card-right">
+                <div class="hotel-title">
+                  <h3>White Jaguar XF 2 Car</h3>
+                </div>
+                <div class="hotel-address">
+                  <p class="hotel-location">Sedan</p>
+
+                </div>
+                <div class="hotel-services">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Parking
+                    </li>
+                    <li>
+                      <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                      4 Seat
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-fan"></i> 
+                      AC
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="hotel-price">
+                  <div class="pricing">
+                    <p class="discount">25% off</p>
+                    <p class="hot-price">$473</p>
+                  </div>
+
+                  <div class="price-buttons">
+                    <button class="view-details">View Details</button>
+                    <button class="book-now-hotel">BOOK NOW</button>
+                  </div>
+                </div>
+                <img src="Attach.png" alt="rating" class="rating" width="50px" />
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="side-bar-right">
+          <div class="right-header">Filters</div>
+          <div class="price">
+            <div class="price-amount">
+              <p>Price</p>
+              <p>+795</p>
+            </div>
+            <div class="graph">
+              <div class="graph-img">
+                <img src="Combined Shape.png" alt="graph" />
+              </div>
+              <div class="graph2-img">
+                <img src="Active-Price.png" alt="active-price" />
+              </div>
+            </div>
+          </div>
+          <div class="stop">
+            <div class="stop-title">
+              <p>Looking for</p>
+              <p class="num">2</p>
+            </div>
+            <div class="stop-input">
+              <select name="stop" id="stop">
+                <option value="LA">4 seat</option>
+                <option value="LB">Los angeles, USA</option>
+                <option value="LC">Los angeles, USA</option>
+                <option value="LD">Los angeles, USA</option>
+              </select>
+            </div>
+          </div>
+          <div class="airline">
+            <div class="airline-title">
+              <p>Category</p>
+            </div>
+            <div class="airline-input">
+              <select name="ariline" id="airline">
+                <option value="QA">Branded</option>
+                <option value="JO">Jordan Airways</option>
+                <option value="PA">Palestine Airways</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="airport">
+            <p>Popular Filters</p>
+            <br />
+            <input type="checkbox" name="dhaka" id="dhaka" class="airports" />
+            <label for="dhaka">AC</label>
+            <br />
+            <input type="checkbox" name="dubai" id="dubai" class="airports" />
+            <label for="dubai">New Car</label>
+            <br />
+            <input type="checkbox" name="muscut" id="muscut" class="airports" />
+            <label for="muscut">Non Stop</label>
+          </div>
+
+          <div class="more">
+            <p>More</p>
+            <i class="fa-solid fa-angle-down" style="color: #4c4b5e; opacity: 0.8"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

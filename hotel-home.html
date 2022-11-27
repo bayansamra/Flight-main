@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/hotel-home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1020.0" data-gr-ext-installed="">
+    <div class="container flex">
+      <div class="left-side flex">
+        <div class="list flex">
+          <img src="Brand Logo.svg" alt="brand logo" />
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <ul>
+            <a href="#" id="active"
+              ><i class="fas fa-home-alt"></i>
+              <li>Home</li>
+              <li></li
+            ></a>
+            <a href="#"
+              ><i class="fas fa-wallet"></i>
+              <li>Wallet</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-id-badge"></i>
+              <li>Booking</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-briefcase"></i>
+              <li>Buisness</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-globe-asia"></i>
+              <li>Explore</li></a
+            >
+            <a href="#"
+              ><i class="fas fa-question"></i>
+              <li>Support</li></a
+            >
+          </ul>
+        </nav>
+
+        <div class="subscribe flex">
+          <div class="flex">
+            <div>
+              <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+            </div>
+            <div class="prem flex">
+              <p style="font-size: 0.5rem">Get Premium</p>
+              <p style="opacity: 60%">$39/m</p>
+            </div>
+          </div>
+          <i class="fas fa-play" style="color: #d0d2d9"></i>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <header class="flex">
+          <div class="header-top flex">
+            <div class="header-img">
+              <div class="header-top-icon-container flex">
+                <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+              </div>
+            </div>
+            <p class="header-top-p">Become a Partner</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <div class="header-top flex">
+            <div class="header-img">
+              <img
+                src="person.jpg"
+                alt=""
+                width="30px"
+                class="person-img flex"
+              />
+            </div>
+            <p class="header-top-p">Mansurul Haque</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </header>
+
+        <section class="tabs">
+          <ul class="flex">
+            <a href="#"
+              ><i class="fas fa-plane-departure"></i>
+              <li>Flights</li></a
+            >
+            <a href="#" id="active-tab"
+              ><i class="fas fa-bed"></i>
+              <li>Hotel</li></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-house"></i>
+              <li>Villa</li></a
+            >
+            <a href="#"
+              ><i class="fa-solid fa-taxi"></i>
+              <li>Taxi</li></a
+            >
+          </ul>
+        </section>
+        <section class="flight">
+          <div class="flight-information">
+            <div class="flight-tabs">
+              <ul class="flex">
+                <li id="clicked">Oneway</li>
+                <li>Round Trip</li>
+                <li>Multy city</li>
+              </ul>
+            </div>
+
+            <div class="info-container flex">
+              <div class="first flex">
+                <div class="info from-to">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>From</p>
+                  </div>
+                  <p class="info-p">Dhaka, Bangladesh</p>
+                  <p class="airport">Usmani airport, Sylhet</p>
+                </div>
+                <div class="info class">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Check In- out</p>
+                  </div>
+                  <p class="info-p">21 Aug’19</p>
+                  <p class="airport">Sunday</p>
+                  <i class="fa-solid fa-angle-down class-angle"></i>
+                </div>
+                <div class="info flex from-to">
+                  <div class="icon flex">
+                    <img src="Combined Shape.svg" alt="seat" class="seat-img" />
+                    <p>TO</p>
+                  </div>
+                  <p class="info-p">3 adult - 1 children - 2 room</p>
+                  <p class="airport">Person</p>
+                </div>
+              </div>
+              <div class="second flex">
+                <div class="info flex more">
+                  <div class="icon flex">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>Return</p>
+                  </div>
+                  <p class="info-date">More</p>
+                  <p class="day">...</p>
+                </div>
+                <div class="travel">
+                  <input
+                    type="checkbox"
+                    id="travel"
+                    name="travel"
+                    value="travel"
+                  />
+                  <label class="travel" for="travel">
+                    I am travelling for work</label
+                  >
+                </div>
+                <button class="search-flight">Search flight</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="special-offer">
+          <div class="special-offer-title flex">
+            <h2>Trip Package</h2>
+            <p style="margin-right: 3rem">View all</p>
+          </div>
+          <div class="cards flex">
+            <div class="card-item flex">
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">START FROM</p>
+                  <p class="discount">$599</p>
+                </div>
+
+                <div class="cupon-container">
+
+                  <img src="offer-inner.png" alt="offer inner">
+                <div class="cupon flex">
+                  <p class="country">Thailand</p>
+                  <p class="holidays">Holidays</p>
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="card-item flex">
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">START FROM</p>
+                  <p class="discount">$599</p>
+                </div>
+
+                <div class="cupon-container">
+
+                  <img src="offer-inner.png" alt="offer inner">
+                <div class="cupon flex">
+                  <p class="country">Thailand</p>
+                  <p class="holidays">Holidays</p>
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="card-item flex">
+              <div class="information-container flex">
+                <div class="offer-info flex">
+                  <p class="citytuch">START FROM</p>
+                  <p class="discount">$599</p>
+                </div>
+
+                <div class="cupon-container">
+
+                  <img src="offer-inner.png" alt="offer inner">
+                <div class="cupon flex">
+                  <p class="country">Thailand</p>
+                  <p class="holidays">Holidays</p>
+                </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="best-offer">
+          <div class="best-offer-title flex">
+            <h2>Best Offer</h2>
+            <p>View all</p>
+          </div>
+
+          <div class="best-places">
+            
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+            <div class="best-place">
+              <img src="offer-inner.png" alt="offer inner">
+            <div class="cupon flex">
+              <p class="place">Alexandria</p>
+              <p class="best-hotel">Best Hotel, villa</p>
+            </div>
+
+            </div>
+
+           
+
+          </div>
+        </section>
+
+        <section class="banner">
+          <div class="banner-container flex">
+            <div class="banner-title">
+              <p>Book your perfect deals</p>
+              <div class="price flex">
+                <p class="banner-price">$547</p>
+                <p class="starting-at">starting at</p>
+              </div>
+            </div>
+            <div class="banner-img">
+              <img src="object2.png" alt="object2" />
+            </div>
+            <button class="banner-button flex">Book now</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

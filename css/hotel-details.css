@@ -1,0 +1,163 @@
+.hotel-details {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+}
+.hotel-details-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-left-hotel-details {
+  width: 1172px;
+}
+
+.hotel-details-review {
+  display: flex;
+  flex-direction: row;
+}
+
+.hotel-details-address {
+  padding-left: 1rem;
+}
+
+.stars-review {
+  display: flex;
+  flex-direction: row;
+}
+.star-review {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-review ul {
+  list-style: none;
+}
+
+.hotel-details-review-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.hotel-details-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hotel-popular-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.hotel-details-address-left-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #33344f;
+}
+.hotel-details-location {
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f405e;
+}
+
+.hotel-details-review-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #33344f;
+}
+.excellent {
+  font-weight: 600;
+  font-size: 14px;
+  color: #474f5b;
+}
+
+.review-stars {
+  font-weight: 400;
+  font-size: 11px;
+  color: #191d23;
+  opacity: 0.4;
+}
+
+.line-review {
+  font-weight: 600;
+  font-size: 12px;
+  color: #39404a;
+  opacity: 0.6;
+}
+.line-review ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hotel-details-about-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #33344f;
+  margin-bottom: 1rem;
+}
+.hotel-details-about-body {
+  font-weight: 400;
+  font-size: 12px;
+  color: #6c6c6c;
+  margin-bottom: 1rem;
+}
+
+.hotel-details-about-show {
+  font-weight: 600;
+  font-size: 12px;
+  color: #002959;
+}
+
+.hotel-details-popular-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #33344f;
+  margin-bottom: 1rem;
+}
+.hotel-popular-icons {
+  font-weight: 600;
+  font-size: 12px;
+  color: #a3a6aa;
+  opacity: 0.8;
+}
+.hotel-details-bar {
+    margin-left: 1rem;
+}
+.hotel-details-bar2 {
+    margin-left: 1.45rem;
+}
+.hotel-details-bar3 {
+    margin-left:2rem;
+}
+
+.card-item-right {
+    background-color: #fff;
+}
+.right-side {
+    margin-left: 1rem;
+}
+.secondary-flight {
+    margin-left: -1rem;
+}
+.special-offer {
+    margin-left: 1rem;
+}
+.right-side .special-offer .cards{
+    overflow: visible;
+}
+.cupon > p {
+    display: flex;
+}
+.cupon {
+    gap: 20px;
+}
+.right-side .special-offer .cards .card-item .information-container{
+    gap: 40px;
+}

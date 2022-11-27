@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight results</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/flight-results.css" />
+    <link rel="stylesheet" href="css/flight-results2.css" />
+    <link rel="stylesheet" href="css/flight-summarry.css" />
+    <link rel="stylesheet" href="css/flight-summarry2.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/taxi-booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container flex">
+      <div class="left-side flex">
+        <div class="list flex">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <a href="#"><i class="fas fa-home-alt"></i> </a>
+          <a href="#"><i class="fas fa-wallet"></i> </a>
+          <a href="#"><i class="fas fa-id-badge"></i> </a>
+          <a href="#"><i class="fas fa-briefcase"></i> </a>
+          <a href="#"><i class="fas fa-globe-asia"></i> </a>
+          <a href="#"><i class="fas fa-question"></i> </a>
+        </nav>
+
+        <div class="subscribe flex">
+          <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <header class="flex">
+          <section class="tabs">
+            <div class="flex">
+              <a href="#" id="active-tab"
+                ><i class="fas fa-plane-departure"></i>
+              </a>
+              <a href="#"><i class="fas fa-bed"></i></a>
+              <a href="#"><i class="fa-solid fa-house"></i> </a>
+              <a href="#"><i class="fa-solid fa-taxi"></i> </a>
+            </div>
+          </section>
+          <div class="header-top-container">
+            <div class="header-top flex">
+              <div class="header-img">
+                <div class="header-top-icon-container flex">
+                  <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+                </div>
+              </div>
+              <p class="header-top-p">Become a Partner</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="header-top flex">
+              <div class="header-img">
+                <img
+                  src="person.jpg"
+                  alt=""
+                  width="30px"
+                  class="person-img flex"
+                />
+              </div>
+              <p class="header-top-p">Mansurul Haque</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </header>
+
+        <div class="secondary-flight">
+          <ul class="secondary-flight-tabs flex">
+            <li>
+              <p>Type</p>
+              <div class="secondary-ul-tab">
+                <p>Outstation One-way</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+            <li>
+              <p>Form</p>
+              <div class="secondary-ul-tab">
+                <p>Mumbai</p>
+              </div>
+            </li>
+            <li>
+              <p>To</p>
+              <div class="secondary-ul-tab">
+                <p>Goa</p>
+              </div>
+            </li>
+            <li>
+              <p>Pick Up Date</p>
+              <div class="secondary-ul-tab">
+                <p>Fri, 16 Oct 2020</p>
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+            </li>
+            <li>
+              <p>Pick Up Time</p>
+              <div class="secondary-ul-tab">
+                <p>03:00 Am</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+          </ul>
+          <button class="search">Search Flight</button>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-left">
+            <div class="quick-navigation profile-nav">
+              <div class="quick-left">
+                <p>Profile</p>
+              </div>
+
+              <div class="quick-right">
+                <ul>
+                  <li class="cheap">Info and Price</li>
+                  <li>Taxi Label</li>
+                </ul>
+              </div>
+            </div>
+            <div class="travel-details complete-profile">
+              <div class="complete-profile-left">
+                <p>Complete Your Profile</p>
+                
+                <div class="complete-list">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-1"></i>
+                            Upload your profile image
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-2"></i>
+                            Add your trusted payment method
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-3"></i>
+                            Verify your email address
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="Complete Profile.png" alt="complete-profile">
+            </div>
+            <div class="card-items">
+              <div class="travel-details">
+                <p>Profile</p>
+                <p class="profile-details">
+                  Basic info, for a faster booking experience
+                </p>
+
+                <div class="input-add">
+                  <input type="text" class="add" placeholder="Name" />
+                  <button class="taxi-add-button">
+                    <i class="fa-solid fa-edit"></i>Edit
+                  </button>
+                </div>
+                <div class="input-add">
+                  <input type="text" class="add" placeholder="Birthday" />
+                  <button class="taxi-add-button">
+                    <i class="fa-solid fa-plus"></i>Add
+                  </button>
+                </div>
+                <div class="input-add">
+                  <input type="text" class="add" placeholder="Gender" />
+                  <button class="taxi-add-button">
+                    <i class="fa-solid fa-plus"></i>Add
+                  </button>
+                </div>
+                <div class="input-add">
+                  <input type="text" class="add" placeholder="Birthday" />
+                  <button class="taxi-add-button">
+                    <i class="fa-solid fa-plus"></i>Add
+                  </button>
+                </div>
+                <div class="input-add">
+                  <input type="text" class="add" placeholder="Address" />
+                  <button class="taxi-add-button">
+                    <i class="fa-solid fa-plus"></i>Add
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="travel-details login-profile">
+              <p>Login Details</p>
+              <p class="profile-details">
+                Manage your email address mobile number and password
+              </p>
+            </div>
+          </div>
+          <div class="side-bar-right">
+            <div class="right-header">Profile</div>
+            <div class="user-details">
+              <img src="User.png" alt="user" />
+              <p class="user-name">Mansurul Haque</p>
+              <p class="user-title">Personal Account</p>
+              <button class="edit-profile">Edit Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

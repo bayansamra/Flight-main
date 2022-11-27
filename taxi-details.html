@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight results</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/flight-results.css" />
+    <link rel="stylesheet" href="css/hotel-results.css" />
+    <link rel="stylesheet" href="css/hotel-map-view.css" />
+    <link rel="stylesheet" href="css/hotel-details.css" />
+    <link rel="stylesheet" href="css/taxi-details.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container flex">
+      <div class="left-side flex">
+        <div class="list flex">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav>
+          <a href="#"><i class="fas fa-home-alt"></i> </a>
+          <a href="#"><i class="fas fa-wallet"></i> </a>
+          <a href="#"><i class="fas fa-id-badge"></i> </a>
+          <a href="#"><i class="fas fa-briefcase"></i> </a>
+          <a href="#"><i class="fas fa-globe-asia"></i> </a>
+          <a href="#"><i class="fas fa-question"></i> </a>
+        </nav>
+
+        <div class="subscribe flex">
+          <i class="fas fa-trophy" style="font-size: 1.5rem"></i>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <header class="flex">
+          <section class="tabs">
+            <div class="flex">
+              <a href="#" 
+                ><i class="fas fa-plane-departure"></i>
+              </a>
+              <a href="#" id="active-tab"><i class="fas fa-bed"></i></a>
+              <a href="#"><i class="fa-solid fa-house"></i> </a>
+              <a href="#"><i class="fa-solid fa-taxi"></i> </a>
+            </div>
+          </section>
+          <div class="header-top-container">
+            <div class="header-top flex">
+              <div class="header-img">
+                <div class="header-top-icon-container flex">
+                  <i class="fa-solid fa-house-circle-xmark header-top-icon"></i>
+                </div>
+              </div>
+              <p class="header-top-p">Become a Partner</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="header-top flex">
+              <div class="header-img">
+                <img
+                  src="person.jpg"
+                  alt=""
+                  width="30px"
+                  class="person-img flex"
+                />
+              </div>
+              <p class="header-top-p">Mansurul Haque</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </header>
+
+        <div class="secondary-flight">
+          <ul class="secondary-flight-tabs flex">
+            <li>
+              <p>Where</p>
+              <div class="secondary-ul-tab">
+                <p>Goa, India</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+            <li>
+              <p>Check-In</p>
+              <div class="secondary-ul-tab">
+                <p>21 Aug’19</p>
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+            </li>
+            <li>
+              <p>Check-out</p>
+              <div class="secondary-ul-tab">
+                <p>25 Aug’19</p>
+                <i class="fa-solid fa-calendar"></i>
+              </div>
+            </li>
+            <li>
+              <p>Rooms & Guests</p>
+              <div class="secondary-ul-tab">
+                <p>1 Room, 3 Adults</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+            <li>
+              <p>Hotel Name</p>
+              <div class="secondary-ul-tab">
+                <p>Hotel Haramain</p>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </li>
+          </ul>
+          <button class="search">Search Flight</button>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar-left-hotel-details">
+            <div class="quick-navigation">
+              <div class="quick-left">
+                <p>Car Details</p>
+              </div>
+
+              <div class="quick-right">
+                <ul>
+                  <li class="cheap">Info and Price</li>
+                  <li>Guest Ratings</li>
+                  <li>Location</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="hotel-details">
+              <div class="hotel-details-review">
+                <img
+                  src="taxi-details-car.png"
+                  alt="taxi-details-img"
+                  class="taxi-details-img"
+                />
+
+                <div class="hotel-details-review-right">
+                  <div class="taxi-title-p">
+                  <h3 class="taxi-details-review-title">
+                    White Jaguar XF 2 Car
+                  </h3>
+                  <p class="hotel-details-review-p">Rome Ciampino Airport</p>
+                </div>
+                  <div class="hotel-details-rating">
+                    <div class="stars-review">
+                      <img
+                        src="hotel-map-rating.png"
+                        alt="hotel-map-rating"
+                        class="hotel-details-rating"
+                      />
+                      <div class="star-review">
+                        <p class="excellent">Excellent</p>
+                        <p class="review-stars">
+                          275 Review
+                          <img src="Star.png" alt="stars" />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hotel-details-popular">
+                    <h3 class="hotel-details-popular-title">Popular Service</h3>
+                    <ul class="hotel-popular-icons">
+                      <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Parking
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-receipt"></i>
+                        4 Seat
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-fan"></i>
+                        AC Control
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-wifi"></i>
+                        Wifi
+                      </li>
+                    </ul>
+                    <img src="Line 17.png" alt="line" />
+                  </div>
+                  <div class="amendments">
+                    <input
+                      type="checkbox"
+                      id="amendments"
+                      name="amendments"
+                      value="Amendments"
+                    />
+                    <label for="amendments">Amendments</label>
+                    <input
+                      type="checkbox"
+                      id="theft"
+                      name="theft"
+                      value="theft"
+                    />
+                    <label for="theft"> Theft Protection</label>
+                    <input
+                      type="checkbox"
+                      id="collision"
+                      name="collision"
+                      value="collision"
+                    />
+                    <label for="collision"> Collision Damage Waiver</label>
+                  </div>
+                </div>
+                <div class="card-item-right">
+                  <div class="box">
+                    <div class="box-left">
+                      <p>20% OFF</p>
+                      <p class="save">Save $129</p>
+                    </div>
+                    <div class="box-right">
+                      <p>399<span>USD</span></p>
+                      <p class="down">Per night</p>
+                    </div>
+                  </div>
+                  <div class="box-right-button">
+                    <button class="book-now">PAY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="supplier">
+          <div class="supplier-location-title">
+            <h2>Supplier Location</h2>
+          <div class="supplier-pickup">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="supplier-details">
+              <p class="supplier-drop">
+                Pick Up & Drop Off
+              </p>
+              <p class="supplier-address">
+                Alamo - Doha Airport
+              </p>
+              <p class="supplier-address">
+                Rental Lounge Vertical Circle, Ground Floor, Doha, Qatar, 24659
+              </p>
+            </div>
+          </div>
+          <div class="supplier-pickup">
+            <i class="fa-solid fa-clock"></i>
+            <div class="supplier-details">
+              <p class="supplier-drop">
+                Opening hours
+              </p>
+              <p class="supplier-address">
+                Monday - Friday
+              </p>
+              <p class="supplier-address">
+                6:00 AM - 12:00  
+              </p>
+            </div>
+          </div>
+          </div>
+          
+          <img src="taxi-details-map.png" alt="taxi-map">
+
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
